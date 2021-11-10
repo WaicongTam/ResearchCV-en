@@ -1,0 +1,99 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 10pt
+}
+
+#header {
+    text-align: center;
+}
+
+#introduction {
+    text-align: left;
+    padding-top: 1em;
+}
+
+h1 {
+    font-size: 12pt;
+}
+
+h2,h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    font-size: 11pt;
+}
+
+p, li {
+    font-size: 10pt;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 0.1em;
+}
+
+.experience-information-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience-location, .experience-time {
+    align-self: flex-end;
+}
+
+.experience-title, .experience-organisation {
+    font-weight: bold;
+}
+
+.experience-supervisor, .experience-subtitle {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+    padding-inline-start: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.block {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.experience {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+li {
+    padding-block-start: 0.7px;
+    padding-block-end: 0.7px;
+}
+
+a:visited {
+    text-decoration: none; 
+    decoration: none; 
+}
+
+hr {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em
+}
+
+.publication-item-myself {
+    font-weight: bold;
+}
+
+.publication-item {
+    padding-left: 1.27cm;
+    text-indent: -1.27cm;
+}
+
+.conference-journal > .publication-item-journal {
+    font-style: italic;
+}
